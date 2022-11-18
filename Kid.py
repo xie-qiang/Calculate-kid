@@ -8,7 +8,7 @@ import copy
 import matplotlib.pyplot as plt  
 import os
 import PIL.Image as Image
- 
+
 def get_args():
     parser = argparse.ArgumentParser(description='Caculate KID score with CLIP ViT-B/32 extracting features')
     parser.add_argument('--real_path', default='./data/real/')
