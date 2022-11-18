@@ -1,7 +1,6 @@
 import argparse
 import torch
 from torchvision import datasets, transforms
-from d2l import torch as d2l
 import clip
 from torchmetrics.image.kid import KernelInceptionDistance
 import pandas as pd
